@@ -12,7 +12,7 @@ p {
 }
 
 .page {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   background-color: #151515;
 }
@@ -121,4 +121,15 @@ p {
 .footer__icon-youtube {
   width: 16px;
   height: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  .header__title {
+    font-size: 80px;
+  }
 }
