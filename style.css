@@ -15,6 +15,7 @@ p {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   background-color: #151515;
+  max-height: 1300px;
 }
 
 .header {
@@ -22,6 +23,7 @@ p {
   background-image: url(./images/Background\ Project\ 1.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .header__banner {
@@ -45,7 +47,16 @@ p {
   max-width: 1400px;
   text-align: center;
 }
-
+.header__image {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  z-index: 1;
+  border-radius: 90px;
+  top: 101px;
+  left: 129px;
+  object-fit: cover;
+}
 .overlay {
   width: 100%;
   height: 100%;
@@ -54,6 +65,18 @@ p {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0 auto;
+  list-style-type: none;
 }
 
 .content {
@@ -67,7 +90,7 @@ p {
 
 .card {
   width: 490px;
-  min-height: 440px;
+  min-height: 329px;
   background-color: #ffffff;
   border-radius: 10px;
 }
