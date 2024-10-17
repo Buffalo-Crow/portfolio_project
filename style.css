@@ -31,7 +31,7 @@ p {
   letter-spacing: -0.64px;
   font-size: 35px;
   line-height: 1;
-  color: #ffe247;
+  color: #ffe347c2;
   text-transform: uppercase;
   margin: 20px auto 0;
 }
@@ -41,7 +41,7 @@ p {
   font-weight: 500;
   line-height: 132px;
   letter-spacing: -5.6px;
-  color: #ffe247;
+  color: #ad8534;
   text-transform: uppercase;
   margin: 0 auto 20px;
   max-width: 1400px;
@@ -60,7 +60,7 @@ p {
 .overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.529);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -144,6 +144,21 @@ p {
 .footer__icon-youtube {
   width: 16px;
   height: 16px;
+}
+
+.footer__icon-linkedin {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__icon-instagram {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__icon-facebook {
+  height: 16px;
+  width: 16px;
 }
 
 @media screen and (max-width: 1000px) {
